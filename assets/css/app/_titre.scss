@@ -1,5 +1,5 @@
 h1{
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(230, 230, 230);
     text-shadow: 0 1px 0 rgb(0, 0, 0),
              0 2px 0 #000000,
@@ -14,10 +14,13 @@ h1{
              -moz-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Mozilla */
              -o-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Opera */
              transform: perspective( 2000px ) rotateY( 15deg );
-    
+    position:absolute;
+    top: 25%;
+    left: 55%;
+    z-index:2;
 }
 h2{
-    font-size: 2em;
+    font-size: 2.5em;
     color: rgb(138, 19, 19);
     text-shadow: 0 1px 0 rgb(0, 0, 0),
              0 2px 0 #000000,
@@ -32,7 +35,10 @@ h2{
              -moz-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Mozilla */
              -o-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Opera */
              transform: perspective( 2000px ) rotateY( 15deg );
-    
+    position:absolute;
+    top: 45%;
+    left: 55%;
+    z-index:2;
 }
 h3{
     font-size: 1.8em;

@@ -1,5 +1,5 @@
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   color: #e6e6e6;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(2000px) rotateY(15deg);
@@ -8,10 +8,14 @@ h1 {
   /* Pour Mozilla */
   -o-transform: perspective(2000px) rotateY(15deg);
   /* Pour Opera */
-  transform: perspective(2000px) rotateY(15deg); }
+  transform: perspective(2000px) rotateY(15deg);
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  z-index: 2; }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #8a1313;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(2000px) rotateY(15deg);
@@ -20,7 +24,11 @@ h2 {
   /* Pour Mozilla */
   -o-transform: perspective(2000px) rotateY(15deg);
   /* Pour Opera */
-  transform: perspective(2000px) rotateY(15deg); }
+  transform: perspective(2000px) rotateY(15deg);
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  z-index: 2; }
 
 h3 {
   font-size: 1.8em; }
@@ -29,6 +37,7 @@ h4 {
   font-size: 1.5em; }
 
 .Violet {
+  height: 720px;
   position: relative;
   background-image: linear-gradient(-80deg, #bd6de2, #481968);
   background-image: -moz-linear-gradient(-80deg, #bd6de2, #481968); }
@@ -72,7 +81,21 @@ body {
   position: absolute;
   top: -200px;
   left: -80px;
-  z-index: 1;
+  z-index: 0;
   transform: rotate(-15deg); }
+
+.dessin {
+  top: 5%;
+  left: 5%;
+  z-index: 2;
+  float: left;
+  margin-left: 2%; }
+
+.tache {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
