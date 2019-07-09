@@ -1,5 +1,5 @@
 h1 {
-  font-size: 4em;
+  font-size: 5em;
   color: #e6e6e6;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(2000px) rotateY(15deg);
@@ -31,10 +31,19 @@ h2 {
   z-index: 2; }
 
 h3 {
-  font-size: 1.8em; }
+  font-size: 4em;
+  position: absolute;
+  top: -40%;
+  left: 30%;
+  z-index: 4;
+  transform: rotate(-5deg); }
 
 h4 {
-  font-size: 1.5em; }
+  font-size: 3em; }
+
+.rouge {
+  margin-left: 20%;
+  transform: rotate(-4deg); }
 
 .Violet {
   height: 720px;
@@ -84,12 +93,60 @@ body {
   z-index: 0;
   transform: rotate(-15deg); }
 
+.Noir12 {
+  width: 150px;
+  height: 40px;
+  background: black;
+  -webkit-transform: rotate(-10deg) skew(88deg);
+  -moz-transform: rotate(-10deg) skew(88deg);
+  -o-transform: rotate(-10deg) skew(88deg);
+  position: absolute;
+  z-index: 4;
+  top: 95%; }
+
+.Noir13 {
+  width: 110%;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  z-index: 3;
+  top: 90%;
+  left: -2%;
+  transform: rotate(-5deg); }
+
+.Noir2 {
+  height: 200px;
+  position: relative; }
+
+.Noir22 {
+  width: 110%;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  z-index: 3;
+  top: 21%;
+  left: -2%;
+  transform: rotate(-4deg); }
+
+.Noir23 {
+  width: 150px;
+  height: 100px;
+  background: black;
+  -webkit-transform: rotate(1deg) skew(60deg);
+  -moz-transform: rotate(1deg) skew(80deg);
+  -o-transform: rotate(1deg) skew(88deg);
+  position: absolute;
+  z-index: 4;
+  top: 95%;
+  left: 66%; }
+
 .dessin {
   top: 5%;
   left: 5%;
   z-index: 2;
   float: left;
-  margin-left: 2%; }
+  margin-left: 2%;
+  position: absolute; }
 
 .tache {
   width: 100%;
