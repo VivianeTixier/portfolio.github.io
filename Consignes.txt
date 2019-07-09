@@ -1,0 +1,20 @@
+
+Port Folio
+
+Remplacer la text par un Lorem ipsum, 
+et fausses images car on a pas encore nos projets 
+
+Faire une maquette de ce qu'on aimerait que notre cv soit
+
+Entête, menu, colonnes
+
+conseil: section Moi
+section compétences
+section port folio
+section contact (il faudra faire un formulaire même 
+s'il ne marchera pas seulement sous html css, à faire sur une autre page)
+
+/!\Changer parfois le texte généré par le Lorem Ipsum
+
+
+Essayer: Une page qui fait moi compétence et porte folio, et une page contact
