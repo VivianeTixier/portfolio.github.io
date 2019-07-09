@@ -133,8 +133,8 @@ body {
   height: 100px;
   background: black;
   -webkit-transform: rotate(1deg) skew(60deg);
-  -moz-transform: rotate(1deg) skew(80deg);
-  -o-transform: rotate(1deg) skew(88deg);
+  -moz-transform: rotate(1deg) skew(60deg);
+  -o-transform: rotate(1deg) skew(60deg);
   position: absolute;
   z-index: 4;
   top: 95%;
