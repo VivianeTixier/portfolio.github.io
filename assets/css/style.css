@@ -1,5 +1,5 @@
 h1 {
-  font-size: 50px;
+  font-size: 3em;
   color: #e6e6e6;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(2000px) rotateY(15deg);
@@ -11,7 +11,7 @@ h1 {
   transform: perspective(2000px) rotateY(15deg); }
 
 h2 {
-  font-size: 30px;
+  font-size: 2em;
   color: #8a1313;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(2000px) rotateY(15deg);
@@ -23,25 +23,33 @@ h2 {
   transform: perspective(2000px) rotateY(15deg); }
 
 h3 {
-  color: #fff; }
+  font-size: 1.8em; }
+
+h4 {
+  font-size: 1.5em; }
 
 .Violet {
+  position: relative;
   background-image: linear-gradient(-80deg, #bd6de2, #481968);
   background-image: -moz-linear-gradient(-80deg, #bd6de2, #481968); }
 
 .Rouge {
+  position: relative;
   background-image: linear-gradient(-80deg, #ffd900, #f03326);
   background-image: -moz-linear-gradient(-80deg, #ffd900, #f03326); }
 
 .Bleu {
+  position: relative;
   background-image: linear-gradient(-260deg, #9dc6ec, #0c72a1);
   background-image: -moz-linear-gradient(-260deg, #9dc6ec, #0c72a1); }
 
 .Vert {
-  background-image: linear-gradient(-260deg, #56e41e, #b9ff9e);
-  background-image: -moz-linear-gradient(-260deg, #56e41e, #b9ff9e); }
+  position: relative;
+  background-image: linear-gradient(-260deg, #44cc0f, #99e07d);
+  background-image: -moz-linear-gradient(-260deg, #44cc0f, #99e07d); }
 
 .Rose {
+  position: relative;
   background-image: linear-gradient(-80deg, #ec9dd9, #bb2d80);
   background-image: -moz-linear-gradient(-80deg, #ec9dd9, #bb2d80); }
 
@@ -50,6 +58,21 @@ h3 {
 
 body {
   margin: 5%;
-  background-color: #000; }
+  background-color: #000;
+  color: #fff;
+  font-family: Arial; }
+  body .cadre {
+    border: 2px solid #fff;
+    padding: 1%; }
+
+.Noir1 {
+  width: 800px;
+  height: 300px;
+  background-color: #000;
+  position: absolute;
+  top: -200px;
+  left: -80px;
+  z-index: 1;
+  transform: rotate(-15deg); }
 
 /*# sourceMappingURL=style.css.map */
