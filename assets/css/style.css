@@ -1,21 +1,21 @@
 h1 {
-  font-size: 5em;
+  font-size: 100px;
   color: #e6e6e6;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  z-index: 2;
   -webkit-transform: perspective(2000px) rotateY(15deg);
   /* Pour Chrome et Safari */
   -moz-transform: perspective(2000px) rotateY(15deg);
   /* Pour Mozilla */
   -o-transform: perspective(2000px) rotateY(15deg);
   /* Pour Opera */
-  transform: perspective(2000px) rotateY(15deg);
-  position: absolute;
-  top: 25%;
-  left: 55%;
-  z-index: 2; }
+  transform: perspective(2000px) rotateY(15deg); }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 60px;
   color: #8a1313;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(2000px) rotateY(15deg);
@@ -31,7 +31,7 @@ h2 {
   z-index: 2; }
 
 h3 {
-  font-size: 4em;
+  font-size: 60px;
   position: absolute;
   top: -40%;
   left: 30%;
@@ -39,7 +39,7 @@ h3 {
   transform: rotate(-5deg); }
 
 h4 {
-  font-size: 3em; }
+  font-size: 40px; }
 
 .rouge {
   margin-left: 20%;
@@ -72,16 +72,17 @@ h4 {
   background-image: -moz-linear-gradient(-80deg, #ec9dd9, #bb2d80); }
 
 .Fond {
-  padding: 2%; }
+  padding: 15px; }
 
 body {
-  margin: 5%;
+  width: 100vw;
+  margin: 0 auto;
   background-color: #000;
   color: #fff;
   font-family: Arial; }
   body .cadre {
     border: 2px solid #fff;
-    padding: 1%; }
+    padding: 5px; }
 
 .Noir1 {
   width: 800px;
@@ -136,9 +137,9 @@ body {
   -moz-transform: rotate(1deg) skew(80deg);
   -o-transform: rotate(1deg) skew(80deg);
   position: absolute;
-  z-index: 4;
+  z-index: 3;
   top: 95%;
-  left: 66%; }
+  left: 69%; }
 
 .dessin {
   top: 5%;
