@@ -9,3 +9,40 @@ body{
         padding: 5px;
     }
 }
+@media screen and (max-width:1160px){
+    h1{
+        font-size:70px;
+    }
+    h2{
+        font-size: 40px;
+        top:45%;
+    }
+    h3{
+        font-size: 50px;
+    }
+    
+    body{
+        font-size: 14px;
+    }
+    .Violet{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    h1{
+        font-size:50px;
+        left:55%;
+        top: 30%;
+    }
+    h2{
+        font-size: 30px;
+        top:45%;
+        left:60%;
+    }
+    h3{
+        font-size: 50px;
+        left: 20%;
+
+    }
+}
