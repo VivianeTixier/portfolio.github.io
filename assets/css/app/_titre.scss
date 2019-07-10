@@ -14,10 +14,14 @@ h1{
     top: 25%;
     left: 50%;
     z-index:2;
-    -webkit-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Chrome et Safari */
-    -moz-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Mozilla */
-    -o-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Opera */
-    transform: perspective( 2000px ) rotateY( 15deg );
+    -webkit-transform: perspective( 2000px ) rotateY( 40deg ); /* Pour Chrome et Safari */
+    -moz-transform: perspective( 2000px ) rotateY( 40deg ); /* Pour Mozilla */
+    -o-transform: perspective( 2000px ) rotateY( 40deg ); /* Pour Opera */
+    transform: perspective( 2000px ) rotateY( 40deg );
+    animation: alternate shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate(0, 0, 0);
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
 }
 h2{
     font-size: 60px;
@@ -31,14 +35,18 @@ h2{
              -2px 7px 2px rgba(0, 0, 0, 0.6),
              -2px 7px 8px rgba(0, 0, 0, 0.2),
              -2px 7px 45px rgba(0, 0, 0, 0.4);
-    -webkit-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Chrome et Safari */
-    -moz-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Mozilla */
-    -o-transform: perspective( 2000px ) rotateY( 15deg ); /* Pour Opera */
-    transform: perspective( 2000px ) rotateY( 15deg );
+    -webkit-transform: perspective( 2000px ) rotateY( 30deg ); /* Pour Chrome et Safari */
+    -moz-transform: perspective( 2000px ) rotateY( 30deg ); /* Pour Mozilla */
+    -o-transform: perspective( 2000px ) rotateY( 30deg ); /* Pour Opera */
+    transform: perspective( 2000px ) rotateY( 30deg );
     position:absolute;
     top: 45%;
     left: 55%;
     z-index:2;
+    animation: alernate shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate(0, 0, 0);
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
 }
 h3{
     font-size: 60px;
@@ -54,4 +62,7 @@ h4{
 .rouge{
     margin-left: 20%;
     transform: rotate(-4deg);
+}
+.bleu{
+    transform: rotate(-3deg);
 }

@@ -6,29 +6,37 @@ h1 {
   top: 25%;
   left: 50%;
   z-index: 2;
-  -webkit-transform: perspective(2000px) rotateY(15deg);
+  -webkit-transform: perspective(2000px) rotateY(40deg);
   /* Pour Chrome et Safari */
-  -moz-transform: perspective(2000px) rotateY(15deg);
+  -moz-transform: perspective(2000px) rotateY(40deg);
   /* Pour Mozilla */
-  -o-transform: perspective(2000px) rotateY(15deg);
+  -o-transform: perspective(2000px) rotateY(40deg);
   /* Pour Opera */
-  transform: perspective(2000px) rotateY(15deg); }
+  transform: perspective(2000px) rotateY(40deg);
+  animation: alternate shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate(0, 0, 0);
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
 
 h2 {
   font-size: 60px;
   color: #8a1313;
   text-shadow: 0 1px 0 black, 0 2px 0 #000000, -1px 3px 0 black, -1px 4px 0 black, -2px 5px 0 black, -2px 6px 0 black, -2px 7px 2px rgba(0, 0, 0, 0.6), -2px 7px 8px rgba(0, 0, 0, 0.2), -2px 7px 45px rgba(0, 0, 0, 0.4);
-  -webkit-transform: perspective(2000px) rotateY(15deg);
+  -webkit-transform: perspective(2000px) rotateY(30deg);
   /* Pour Chrome et Safari */
-  -moz-transform: perspective(2000px) rotateY(15deg);
+  -moz-transform: perspective(2000px) rotateY(30deg);
   /* Pour Mozilla */
-  -o-transform: perspective(2000px) rotateY(15deg);
+  -o-transform: perspective(2000px) rotateY(30deg);
   /* Pour Opera */
-  transform: perspective(2000px) rotateY(15deg);
+  transform: perspective(2000px) rotateY(30deg);
   position: absolute;
   top: 45%;
   left: 55%;
-  z-index: 2; }
+  z-index: 2;
+  animation: alernate shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate(0, 0, 0);
+  animation-iteration-count: infinite;
+  animation-duration: 5s; }
 
 h3 {
   font-size: 60px;
@@ -45,30 +53,33 @@ h4 {
   margin-left: 20%;
   transform: rotate(-4deg); }
 
+.bleu {
+  transform: rotate(-3deg); }
+
 .Violet {
   height: 720px;
   position: relative;
-  background-image: linear-gradient(-80deg, #bd6de2, #481968);
+  background-image: linear-gradient(-80deg, #481968, #bd6de2);
   background-image: -moz-linear-gradient(-80deg, #bd6de2, #481968); }
 
 .Rouge {
   position: relative;
-  background-image: linear-gradient(-80deg, #ffd900, #f03326);
+  background-image: linear-gradient(-80deg, #f03326, #ffd900);
   background-image: -moz-linear-gradient(-80deg, #ffd900, #f03326); }
 
 .Bleu {
   position: relative;
-  background-image: linear-gradient(-260deg, #9dc6ec, #0c72a1);
+  background-image: linear-gradient(-260deg, #0c72a1, #9dc6ec);
   background-image: -moz-linear-gradient(-260deg, #9dc6ec, #0c72a1); }
 
 .Vert {
   position: relative;
-  background-image: linear-gradient(-260deg, #44cc0f, #99e07d);
+  background-image: linear-gradient(-260deg, #99e07d, #44cc0f);
   background-image: -moz-linear-gradient(-260deg, #44cc0f, #99e07d); }
 
 .Rose {
   position: relative;
-  background-image: linear-gradient(-80deg, #ec9dd9, #bb2d80);
+  background-image: linear-gradient(-80deg, #bb2d80, #ec9dd9);
   background-image: -moz-linear-gradient(-80deg, #ec9dd9, #bb2d80); }
 
 .Fond {
@@ -80,40 +91,14 @@ body {
   background-color: #000;
   color: #fff;
   font-family: Arial; }
+  body .Rouge {
+    padding-bottom: 10%; }
+  body .Bleu {
+    padding-top: 12%; }
   body .cadre {
     border: 2px solid #fff;
     padding: 5px; }
 
-@media screen and (max-width: 1160px) {
-  h1 {
-    font-size: 70px; }
-
-  h2 {
-    font-size: 40px;
-    top: 45%; }
-
-  h3 {
-    font-size: 50px; }
-
-  body {
-    font-size: 14px; }
-
-  .Violet {
-    height: 500px; } }
-@media screen and (max-width: 1000px) {
-  h1 {
-    font-size: 50px;
-    left: 55%;
-    top: 30%; }
-
-  h2 {
-    font-size: 30px;
-    top: 45%;
-    left: 60%; }
-
-  h3 {
-    font-size: 50px;
-    left: 20%; } }
 .Noir1 {
   width: 800px;
   height: 300px;
@@ -151,10 +136,10 @@ body {
   position: absolute;
   background-color: black;
   z-index: 5;
-  top: 82%;
-  width: 3%;
+  top: 81%;
+  width: 1%;
   height: 20%;
-  left: 97%; }
+  left: 99%; }
 
 .Noir2 {
   height: 200px;
@@ -182,6 +167,18 @@ body {
   top: 80%;
   left: 54%; }
 
+.Noir3 {
+  -moz-clip-path: polygon(0 33%, 100% 41%, 100% 53%, 0 65%);
+  -o-clip-path: polygon(0 33%, 100% 41%, 100% 53%, 0 65%);
+  -webkit-clip-path: polygon(0 33%, 100% 41%, 100% 53%, 0 65%);
+  background-color: white;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 0%; }
+
 .dessin {
   height: auto;
   top: 3vh;
@@ -189,16 +186,30 @@ body {
   z-index: 2;
   float: left;
   margin-left: 2%;
-  position: absolute; }
-
+  position: absolute;
+  animation: translateX 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translateX(100%);
+  transition: 0.5s; }
+@keyframes translateX {
+  100% {
+    transform: translateX(3%); } }
 .tache {
   width: 50%;
   height: auto;
   position: absolute;
   top: 20%;
   left: 45%;
-  z-index: 1; }
+  z-index: 1;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate(0, 0, 0);
+  animation-iteration-count: infinite;
+  animation-duration: 10s; }
 
+@keyframes shake {
+  50% {
+    transform: translate(10px, -10px); }
+  100% {
+    transform: translate(0, 0); } }
 @media screen and (max-width: 1160px) {
   h1 {
     font-size: 70px; }
