@@ -1,3 +1,22 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Acme', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify; }
+  body h1, body h2 {
+    font-family: 'Russo One', sans-serif; }
 
+#viviane {
+  width: 40%; }
+
+.fond {
+  margin: 5px 0; }
+  .fond.violet {
+    background-image: linear-gradient(-60deg #7b0f9c, #b679da); }
 
 /*# sourceMappingURL=style.css.map */
