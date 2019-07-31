@@ -11,4 +11,10 @@ body{
     h1, h2{
         font-family: 'Russo One', sans-serif;
     }
+    h4{
+        font-size: 30px;
+        .rouge{
+            transform: rotate(-5deg);
+        }
+    }
 }
