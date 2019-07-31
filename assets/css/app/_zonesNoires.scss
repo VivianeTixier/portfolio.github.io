@@ -1,0 +1,22 @@
+#n1 {
+  -webkit-clip-path: polygon(50% 0%, 0 0, 0 12%);
+  clip-path: polygon(50% 0%, 0 0, 0 12%);
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+#n2 {
+  -webkit-clip-path: polygon(40% 0, 0 11%, 0 28%, 100% 27%, 17% 26%, 100% 20%, 100% 0, 8% 10%);
+  clip-path: polygon(40% 0, 0 11%, 0 28%, 100% 27%, 17% 26%, 100% 20%, 100% 0, 8% 10%);
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  z-index:1;
+  top:80%;
+  left:0;
+}
