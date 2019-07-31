@@ -1,0 +1,11 @@
+#logoContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
