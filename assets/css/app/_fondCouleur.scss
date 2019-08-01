@@ -40,6 +40,7 @@
     h4{
         margin-left: 20%;
         transform: rotate(3deg);
+        margin-bottom: 0;
     }
 }
   &.rose {
@@ -50,7 +51,7 @@
     background-image: -o-linear-gradient(-60deg, rgb(197, 33, 175), rgb(241, 137, 255));
     background-image: linear-gradient(-60deg, rgb(197, 33, 175), rgb(241, 137, 255));
     h4{
-        transform: rotate(10deg);
+        transform: rotate(5deg);
     }
 }
   .text {
@@ -81,6 +82,7 @@
         }
         &.vert{
             padding-top: 12%;
+            padding-bottom: 15%;
         }
     }
 }
