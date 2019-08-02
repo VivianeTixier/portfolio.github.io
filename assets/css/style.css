@@ -250,12 +250,35 @@ h3 {
     height: auto; }
 
 #carousel {
-  display: flex;
-  justify-content: center; }
+  display: flex; }
   #carousel img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: 3px solid #000;
-    border-radius: 100%; }
+    border-radius: 100%;
+    margin-left: 0; }
+    #carousel img .active {
+      transition: 1s;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      color: #000; }
+      #carousel img .active a {
+        color: #922323; }
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #carousel img {
+    width: 170px;
+    height: 170px; } }
+@media screen and (min-width: 531px) and (max-width: 799px) {
+  #carousel img {
+    width: 120px;
+    height: 120px; } }
+@media screen and (max-width: 530px) {
+  #carousel img {
+    width: 90px;
+    height: 90px; } }
 
 /*# sourceMappingURL=style.css.map */

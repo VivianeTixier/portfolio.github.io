@@ -1,6 +1,7 @@
+// Carousel
 $(document).ready(function () {
     $('.center').slick({
-        centerMode: true,
+        centerMode: true, //pour avoir l'image ciblée au milieu
         centerPadding: '60px',
         slidesToShow: 3,
         responsive: [
@@ -19,11 +20,23 @@ $(document).ready(function () {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 1
+                    slidesToShow: 2
                 }
             }
         ]
     });
-   
+});
 
-  });
+//Faire une description pour les projets 
+
+//Cibler les images des projets
+let $imgCssZG = $('#cssZG'),
+    $imgPotato = $('#potato'),
+    $imgDuerena = $('#duerena'),
+    $imgRpgMaker = $('#rpgM')
+    ;
+
+//Cibler la div vide qui accueillera la description
+let $description = $('#descriptionProjet');
+
+
