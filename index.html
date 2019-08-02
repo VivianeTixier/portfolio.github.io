@@ -8,7 +8,10 @@
     <title>PortFolio Viviane Tixier</title>
     <link href="https://fonts.googleapis.com/css?family=Acme|Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="assets/js/script.js" defer></script>
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
+    
 </head>
 
 <body>
@@ -55,10 +58,13 @@
     </section>
     <section id="portFolio" class="fond vert">
         <h4>Et si on jetait un oeil là ?</h4>
-        <div id="carousel">
-            <img src="assets/img/cssZenGarden.png"/>
-            <img src="assets/img/PotatoGotchi.png"/>
-        </div>
+        <!--Tentative de carousel-->
+        <div class="center" id="carousel"> 
+                <div><img src="assets/img/cssZenGarden.png"/></div>
+                <div><img src="assets/img/PotatoGotchi.png"/></div>
+                <div><img src="assets/img/duerena.png"></div>
+                <div><img src="assets/img/Rpg maker.png"/></div>
+              </div>
         <div id="n5"></div>
     </section>
     <section id="contact" class="fond rose">
@@ -71,6 +77,10 @@
         </div>
         <div id="n6"></div>
     </section>
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.js"></script>
+    <script src="assets/js/script.js" ></script>
 </body>
 
 </html>
