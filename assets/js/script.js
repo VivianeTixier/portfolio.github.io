@@ -27,16 +27,3 @@ $(document).ready(function () {
     });
 });
 
-//Faire une description pour les projets 
-
-//Cibler les images des projets
-let $imgCssZG = $('#cssZG'),
-    $imgPotato = $('#potato'),
-    $imgDuerena = $('#duerena'),
-    $imgRpgMaker = $('#rpgM')
-    ;
-
-//Cibler la div vide qui accueillera la description
-let $description = $('#descriptionProjet');
-
-
