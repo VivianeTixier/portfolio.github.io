@@ -1,6 +1,7 @@
 .fond {
   margin: 5px 0;
-  padding: 10px;
+  padding: 0 10px;
+
   position: relative;
   &.violet {
     background-image: -webkit-linear-gradient(-60deg, rgb(123, 15, 156), rgb(182, 121, 218));
@@ -9,80 +10,54 @@
     background-image: linear-gradient(-60deg, rgb(123, 15, 156), rgb(182, 121, 218));
   }
   &.rouge {
-    padding-top: 3%;
     padding-bottom: 5%;
+    height: 40vw;
     background-image: -webkit-linear-gradient(-60deg, rgb(197, 28, 22), rgb(248, 221, 68));
     background-image: -moz-linear-gradient(-60deg, rgb(197, 28, 22), rgb(248, 221, 68));
     background-image: -o-linear-gradient(-60deg, rgb(197, 28, 22), rgb(248, 221, 68));
     background-image: linear-gradient(-60deg, rgb(197, 28, 22), rgb(248, 221, 68));
-    h4{
-        margin-left: 30%;
+    h4 {
+      margin-left: 30%;
     }
-}
+  }
   &.bleu {
-      padding-top: 5%;
-      padding-bottom: 4%;
+    padding-bottom: 4%;
+    height: 40vw;
     background-image: -webkit-linear-gradient(-60deg, rgb(145, 200, 236), rgb(22, 155, 207));
     background-image: -moz-linear-gradient(-60deg, rgb(145, 200, 236), rgb(22, 155, 207));
     background-image: -o-linear-gradient(-60deg, rgb(145, 200, 236), rgb(22, 155, 207));
     background-image: linear-gradient(-60deg, rgb(145, 200, 236), rgb(22, 155, 207));
-    h4{
-        transform: rotate(-2deg);
+    h4 {
+      transform: rotate(-2deg);
     }
-}
+  }
   &.vert {
-      padding-top: 3%;
-      padding-bottom: 10%;
+    padding-bottom: 10%;
+    height: 40vw;
     background-image: -webkit-linear-gradient(-60deg, rgb(148, 236, 145), rgb(48, 160, 26));
     background-image: -moz-linear-gradient(-60deg, rgb(148, 236, 145), rgb(48, 160, 26));
     background-image: -o-linear-gradient(-60deg, rgb(148, 236, 145), rgb(48, 160, 26));
     background-image: linear-gradient(-60deg, rgb(148, 236, 145), rgb(48, 160, 26));
-    h4{
-        margin-left: 20%;
-        transform: rotate(3deg);
-        margin-bottom: 0;
+    h4 {
+      margin-left: 20%;
+      transform: rotate(3deg);
+      margin-bottom: 0;
     }
-}
+  }
   &.rose {
-      padding-bottom: 10%;
-      padding-top: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
     background-image: -webkit-linear-gradient(-60deg, rgb(197, 33, 175), rgb(241, 137, 255));
     background-image: -moz-linear-gradient(-60deg, rgb(197, 33, 175), rgb(241, 137, 255));
     background-image: -o-linear-gradient(-60deg, rgb(197, 33, 175), rgb(241, 137, 255));
     background-image: linear-gradient(-60deg, rgb(197, 33, 175), rgb(241, 137, 255));
-    h4{
-        transform: rotate(5deg);
+    h4 {
+      transform: rotate(5deg);
     }
-}
+  }
   .text {
+    height: 20vw;
     border: 2px solid #fff;
     padding: 5px;
   }
-}
-@media screen and (min-width: 531px) and (max-width: 799px){
-    .fond{
-        &.rouge{
-            padding-bottom:10%;
-        }
-        &.bleu{
-            padding: 10% 10px;
-        }
-        &.vert{
-            padding-top: 7%;
-        }
-    }
-}
-@media screen and (max-width: 530px){
-    .fond{
-        &.rouge{
-            padding-bottom: 15%;
-        }
-        &.bleu{
-            padding: 15% 10px;
-        }
-        &.vert{
-            padding-top: 12%;
-            padding-bottom: 15%;
-        }
-    }
 }
